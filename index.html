@@ -125,7 +125,42 @@ button.submit{
     font-size:13px;
     margin-top:6px;
 }
-
+ /* Payment Icons Grid */
+        .pay-icons { 
+            display: grid; 
+            grid-template-columns: 1fr 1fr; 
+            gap: 12px; 
+            margin: 20px 0; 
+        }
+        
+        /* Logo Center Styling */
+        .p-icon { 
+            border: 1px solid #d1d5db; 
+            border-radius: 8px; 
+            padding: 10px 15px; 
+            display: flex; 
+            align-items: center; 
+            /* Updated for Centering */
+            justify-content: center; 
+            position: relative;
+            background: #fff;
+            cursor: pointer;
+            min-height: 45px;
+        }
+        .p-icon img { 
+            height: 50px; 
+            width: auto; 
+            max-width: 95%; 
+            object-fit: contain; 
+        }
+        .p-icon .arrow { 
+            /* Arrow fixed to right */
+            position: absolute;
+            right: 15px;
+            color: #9ca3af; 
+            font-size: 20px; 
+            font-weight: bold; 
+        }
 </style>
 </head>
 
